@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #6495ED;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100vw;
+    padding: 2rem 0;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav div li {
+    padding: 1rem 1.5rem;
+}
+
+nav div li.hub {
+    background-color: white;
+    border-radius: 28px;
+    padding: 0.8rem 1.5rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 40%); /* Dua kolom dengan lebar 40% */
+    grid-gap: 10%; /* Jarak horizontal dan vertikal antar-gambar */
+    justify-content: center; /* Memusatkan grid secara horizontal */
+    align-items: center; /* Memusatkan grid secara vertikal (opsional) */
+    padding: 5.5rem 0;
+  }
+  
+  .image img {
+    width: 100%; /* Memastikan gambar mengisi seluruh kolom grid */
+    border-radius: 8px; /* Opsional: Memberikan sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opsional: Tambahkan bayangan */
+  }
